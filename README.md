@@ -84,11 +84,4 @@ If you wish to add custom icons for the extension (visible on the `chrome://exte
     ```
 4.  After updating `manifest.json`, return to `chrome://extensions` and click the reload button for the "YouTube Speed Key" extension.
 
-## Contributing
-
-Feel free to fork this repository, make improvements, and submit pull requests!
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE.md). (You can create a `LICENSE.md` file with the MIT license text if you wish).
 
