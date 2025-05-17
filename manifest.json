@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Speed Key",
+    "version": "1.0",
+    "description": "Press ` (backtick) to cycle YouTube video playback speed (1x, 2x, 3x) on YouTube video pages.",
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/watch*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ]
+  }
+  

@@ -1,0 +1,23 @@
+/* styles.css */
+
+.youtube-speed-key-indicator {
+    position: fixed; /* Keeps it in view even when scrolling */
+    top: 20px; /* Distance from the top of the viewport */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for exact centering */
+    background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent black background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 18px; /* Text size */
+    font-family: Arial, sans-serif; /* Standard font */
+    z-index: 2147483647; /* Ensure it's on top of most page elements (max z-index) */
+    opacity: 0; /* Start invisible */
+    transition: opacity 0.3s ease-in-out; /* Smooth fade in/out transition */
+    pointer-events: none; /* Allow clicks to pass through the indicator */
+  }
+  
+  .youtube-speed-key-indicator.visible {
+    opacity: 1; /* Make it visible */
+  }
+  
